@@ -34,3 +34,19 @@ Wire.h: Biblioteca para comunicação I2C.
 Adafruit_GFX.h: Biblioteca para gráficos vetoriais.
 Adafruit_SSD1306.h: Biblioteca para controle do display OLED.
 
+## Para Reproduzir
+# Instalação e Uso
+
+1. Clone ou faça o download deste repositório.
+3. Conecte o ESP8266 ao computador via USB e carregue o código para o dispositivo.
+4. Conecte o sensor de pulso ao ESP8266 de acordo com o esquema de pinagem definido no código.
+5. Certifique-se de configurar corretamente o nome da rede Wi-Fi e a senha no código.
+6. Configure um servidor MQTT e atualize o código com as informações de conexão.
+7. Inicie a monitoração dos batimentos cardíacos e visualize os dados no display OLED.
+8. Utilize o aplicativo MQTTBox para se conectar ao servidor MQTT e visualizar os dados em tempo real.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir um problema ou enviar um pull request.
+
+
