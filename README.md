@@ -34,6 +34,15 @@ Wire.h: Biblioteca para comunicação I2C.
 Adafruit_GFX.h: Biblioteca para gráficos vetoriais.
 Adafruit_SSD1306.h: Biblioteca para controle do display OLED.
 
+### Interfaces:
+O projeto utiliza interfaces físicas, como os pinos do microcontrolador ESP8266, para conexão dos componentes. Por exemplo, são definidos pinos para controlar o buzzer, o LED e para a leitura do sensor de pulso.
+
+### Protocolos 
+Para a comunicação sem fio, o projeto faz uso do protocolo Wi-Fi para conectar-se à rede local. Além disso, para a transmissão dos dados de batimentos cardíacos, o projeto emprega o protocolo MQTT (Message Queuing Telemetry Transport). Este protocolo é utilizado para a comunicação entre dispositivos IoT (Internet of Things) e permite a troca eficiente de mensagens entre o ESP8266 e um servidor MQTT.
+
+## Módulos de Comunicação
+O microcontrolador ESP8266 atua como o principal módulo de comunicação neste projeto, permitindo a conexão sem fio à rede Wi-Fi e a transmissão de dados para um servidor MQTT. Não são utilizados módulos externos adicionais, pois o ESP8266 possui capacidades Wi-Fi integradas que permitem a comunicação sem fio.
+
 ## Para Reproduzir
 # Instalação e Uso
 
